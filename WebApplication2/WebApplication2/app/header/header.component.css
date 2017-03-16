@@ -1,0 +1,27 @@
+﻿span {
+    display: inline-block;
+    padding: 10px 20px;
+    
+    text-decoration: none;
+    color: mediumblue;
+    margin-right: -4px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header {
+    background-color: lightblue;
+}
+
+span:hover {
+    background-color: lightskyblue;
+}
+
+span.selected {
+    background-color: white;
+    border-radius: 35px 8px 0px 0px;
+    border-width: 1px;
+    border-color: white;
+    
+}
